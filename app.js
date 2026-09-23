@@ -585,16 +585,30 @@
 
 
 
-const getLargestElement = (array) => {
-    let largest = array[0];
-    for (let i = 1; i < array.length; i++) {
-        if(array[i] > largest) {
-            largest = array[i];
-        }
-    }
-    return largest;
-}
+// const getLargestElement = (array) => {
+//     let largest = array[0];
+//     for (let i = 1; i < array.length; i++) {
+//         if(array[i] > largest) {
+//             largest = array[i];
+//         }
+//     }
+//     return largest;
+// }
 
-const nums = [6, 51, 7, 63, 37, 673, 38, 349, 127];
-const result = getLargestElement(nums);
-console.log(`Eng katta element: ${result}`);
+// const nums = [6, 51, 7, 63, 37, 673, 38, 349, 127];
+// const result = getLargestElement(nums);
+// console.log(`Eng katta element: ${result}`);
+
+
+// const heading = document.getElementById('sarlavha')
+// console.log(sarlavha);
+// heading.remove();
+
+
+// const inputEls = document.getElementsByName('username');
+// const inputEl = inputEls[0];
+// console.log(inputEl);
+// inputEl.remove();
+
+
+
