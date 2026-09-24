@@ -612,3 +612,79 @@
 
 
 
+// const headings = document.getElementsByClassName('heading');
+// console.log(headings);
+// headings.remove()
+
+
+
+// const headings = document.getElementsByTagName('h1');
+// console.log(headings);
+
+
+    // const headings = document.querySelector('#heading');
+    // console.log(headings);
+
+
+// const headings = document.querySelectorAll('h1');
+// console.log(headings);
+
+
+// const heading = document.getElementById('heading');
+// heading.textContent = 'Yangi matn'
+
+
+
+// const inputEl = document.getElementById('username');
+// inputEl.value = 25;
+
+
+
+// const element = document.querySelector('#heading');
+// element.innerHTML = '<h1>Yangi Sarlavha</h1>';
+
+
+
+// const paragraph = document.createElement('p');
+// const text = document.createTextNode('Bu yerda xatboshi yozilgan');
+
+// paragraph.appendChild(text);
+
+// const box = document.getElementById('box');
+// box.appendChild(paragraph);
+
+// // console.log(box.parentNode);
+// // console.log(box.children);
+
+// box.remove();
+
+
+
+// const changeHeading = () => {
+//     const heading = document.getElementById('heading');
+//     heading.textContent = 'Yangi Sarlavha';
+// }
+
+// const btn = document.getElementById('changeHeadingBtn');
+// btn.addEventListener('click', changeHeading);
+
+
+// const btn = document.getElementById('changeHeadingBtn');
+// btn.onclick = changeHeading;
+
+
+
+// const notifyDoubleClick = () => {
+//     console.log('Element ikki marta bosildi');
+// }
+
+// const btn = document.getElementById('btn');
+// btn.addEventListener('mousemove', notifyDoubleClick);
+
+
+// document.addEventListener('keydown', event => {
+//     console.log('key: ' + event.key);
+//     console.log('code:' + event.code);
+// });
+
+
