@@ -718,8 +718,63 @@
 // --------------------------- JavaScript Elementry ----------------------------
 
 
+// var firstname = 'Jahongir';
+// var firstname = 'Javohir';
+// console.log(firstname);
 
 
+
+// const numberVariable = 10;
+// console.log('numberVariable', numberVariable);
+
+// const stringVariable = 'salom';
+// console.log('stringVariable', stringVariable);
+
+// const booleanVariable = true;
+// console.log('booleanVariable', booleanVariable);
+
+// let undefinedVariable;
+// console.log('undefinedVariable', undefinedVariable);
+
+// const nullVariable = null;
+// console.log('nullVariable', nullVariable);
+
+// const bigIntVariable = 12374123971237419234791273497129347912734n
+// console.log('bigIntVariable', bigIntVariable);
+
+// const symbolVariable = Symbol("uniqueId");
+// console.log('symbolVariable', symbolVariable);
+
+
+
+
+// const age = "27";
+// const amount = "123.45";
+// console.log(Number(age));  // 27
+// console.log(parseInt(amount)); // 123 (butun son)
+// console.log(parseFloat(amount)); // 123.45 (o'nlik son)
+
+
+
+// const name = 'Jahongir';
+// console.log(Number(name));  // NaN
+// console.log(parseInt(name));  // NaN
+// console.log(parseFloat(name));  // NaN
+
+
+
+// const age = 27;
+// console.log(String(age));     // "27"
+// console.log(age.toString());  // "27"
+
+
+
+
+// console.log(Boolean(0));           // false
+// console.log(Boolean(1));           // true
+// console.log(Boolean('hello'));     // true
+// console.log(Boolean(""));          // false
+ 
 
 
 
