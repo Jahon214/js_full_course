@@ -778,6 +778,34 @@
 
 
 
+// console.log(Boolean(false));         // false
+// console.log(Boolean(0));             // false
+// console.log(Boolean(-0));            // false
+// console.log(Boolean(""));            // false  (empty string)
+// console.log(Boolean(null));          // false
+// console.log(Boolean(undefined));     // false
+// console.log(Boolean(NaN));           // false
+// console.log(Boolean(0n));            // false
+
+
+
+// console.log(Boolean(true));       // true
+// console.log(Boolean(1));          // true
+// console.log(Boolean(-1));         // true
+// console.log(Boolean('hello'));    // true (non-empty string)
+// console.log(Boolean(" "));        // true (string with a space)
+// console.log(Boolean([]));         // true (empty array)
+// console.log(Boolean({}));         // true (empty object)
+
+
+
+
+
+
+
+
+
+
 
 
 
