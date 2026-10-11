@@ -798,7 +798,10 @@
 // console.log(Boolean({}));         // true (empty object)
 
 
-
+let x = 5;
+let y = ++x;
+console.log(x); // 6 (x avval y ga qiymatini beradi, keyin 1 ga oshadi)
+console.log(y); // 5 (x ning dastlabki qiymati y ga berilgan)
 
 
 
