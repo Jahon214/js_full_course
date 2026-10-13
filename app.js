@@ -798,12 +798,37 @@
 // console.log(Boolean({}));         // true (empty object)
 
 
-let x = 5;
-let y = ++x;
-console.log(x); // 6 (x avval y ga qiymatini beradi, keyin 1 ga oshadi)
-console.log(y); // 5 (x ning dastlabki qiymati y ga berilgan)
+// let x = 5;
+// let y = ++x;
+// console.log(x); // 6 (x avval y ga qiymatini beradi, keyin 1 ga oshadi)
+// console.log(y); // 5 (x ning dastlabki qiymati y ga berilgan)
 
 
+
+// console.log(true || false);
+
+
+
+// let productPrice = 100; // Maxsulot narxi
+// const isMember = true; // Do'kon a'zosi
+// const hasCoupon = true; // Chegirma kuponiga ega
+
+// if (isMember) {
+//     console.log("A'zolikka chegirma qo'llanildi: 10%");
+//     productPrice *= 0.9; // 10% chegirma
+// }
+
+// if (hasCoupon) {
+//     console.log("Kupon chegirmasi qo'llanildi: 5%");
+//     productPrice *= 0.95; // 5% chegirma
+// }
+
+// if (productPrice < 50) {
+//     console.log("Qo'shimcha chegirma: 5%");
+//     productPrice *= 0.95; // Qo'shimcha 5% chegirma
+// }
+
+// console.log(`Jami to'lov: $${productPrice.toFixed(2)}`)
 
 
 
