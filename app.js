@@ -832,6 +832,17 @@
 
 
 
+const productId = 12345;
+let price = 100;
+
+if (productId === 12345){
+    console.log("Chegirma mavjud!");
+    price *= 0.9;
+}else{
+    console.log("Chegirma mavjud emas.");
+}
+
+console.log(`Maxsulot narxi: ${price}`);
 
 
 
