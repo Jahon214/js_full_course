@@ -861,3 +861,100 @@
 
 
 
+
+// const age = 16;
+// let ticketPrice;
+
+// if (age < 12) {
+//     ticketPrice = 5;  // Bolalar uchun chegirma
+// }else if(age >= 12 && age <= 18) {
+//     ticketPrice = 8  // O'smirlar uchun chegirma
+// }else {
+//     ticketPrice = 12  // Kattalar uchun chegirma
+// }
+
+// console.log(`Bilet narxi: $${ticketPrice}`)
+
+// // Natija: Bilet narxi: $8
+
+
+
+// const isLoggedIn = true;   // Foydalanuvchi tizimga kirganmi?
+// const isAdmin = false;     // Foydalanuvchi adminmi?
+
+// if (isLoggedIn) {
+//     if(isAdmin) {
+//         console.log("Xush kelibsiz, Admin!")
+//     }else {
+//         console.log("Xush kelibsiz, Foydalanuchi!")
+//     }
+// }else{
+//     console.log("Avval tizimga kiring!")
+// }
+
+
+
+// const number = 2;
+// let output;
+
+// switch (number) {
+//     case 1:
+//         output = 'bir';
+//         break;
+//     case 2:
+//         output = 'ikki';
+//         break;
+//     case 3:
+//         output = 'uch';
+//         break;
+// }
+
+// console.log(`Qiymat: ${output}`);
+
+
+
+// const fruit = 'olma';
+
+// switch (fruit) {
+//     case 'banan':
+//         console.log('Bu banan');
+//         break;
+//     case 'olma':
+//         console.log('Bu olma');
+//         break;
+//     case 'apelsin':
+//         console.log('Bu apelsin');
+//         break;
+//     default:
+//         console.log("Meva turi aniqlanmagan");
+// }
+
+// Natija: Bu olma.
+
+
+// const fruit = 'olma';
+
+// if (fruit === 'banan') {
+//     console.log('Bu banan')
+// }else if (fruit === 'olma') {
+//     console.log('Bu olma')
+// }else if (fruit === 'apelsin') {
+//     console.log('Bu apelsin')
+// }else {
+//     console.log('Meva turi aniqlanmadi')
+// }
+
+// // Natija: Bu olma.
+
+
+
+
+const score = 80;
+const grade = score >= 90 
+    ? "A"
+    : score >= 80
+    ? "B"
+    : score >= 70
+    ? "C"
+    : "F"
+console.log(grade); // Natija: B
