@@ -832,18 +832,31 @@
 
 
 
-const productId = 12345;
-let price = 100;
+// const productId = 12345;
+// let price = 100;
 
-if (productId === 12345){
-    console.log("Chegirma mavjud!");
-    price *= 0.9;
-}else{
-    console.log("Chegirma mavjud emas.");
-}
+// if (productId === 12345){
+//     console.log("Chegirma mavjud!");
+//     price *= 0.9;
+// }else{
+//     console.log("Chegirma mavjud emas.");
+// }
 
-console.log(`Maxsulot narxi: ${price}`);
+// console.log(`Maxsulot narxi: ${price}`);
 
+
+
+// const number = 2;
+
+// if(number > 0) {
+//     console.log('Berilgan son musbat');
+// }else if(number === 0){
+//     console.log('Berilgan son 0')
+// }else{
+//     console.log('Berilgan son manfiy');
+// }
+
+// // Berilgan son musbat
 
 
 
