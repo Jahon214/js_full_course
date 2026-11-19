@@ -949,12 +949,46 @@
 
 
 
-const score = 80;
-const grade = score >= 90 
-    ? "A"
-    : score >= 80
-    ? "B"
-    : score >= 70
-    ? "C"
-    : "F"
-console.log(grade); // Natija: B
+// const score = 80;
+// const grade = score >= 90 
+//     ? "A"
+//     : score >= 80
+//     ? "B"
+//     : score >= 70
+//     ? "C"
+//     : "F"
+// console.log(grade); // Natija: B
+
+
+
+// for (i = 0; i < 10; i++) {
+//     console.log("Salom " + i + "-takror");
+// }
+
+// for (i = 0; i < 10; i++) {
+//     console.log(i);
+// }
+
+
+// let sum = 0;
+// for (i = 1; i < 10; i++) {
+//     sum += i;
+// }
+// console.log(sum)
+
+
+// for (let i = 0; i >= 0; i++) { // Shart hech qachon false bo'lmaydi
+// 	 console.log(i);
+// }
+
+
+// for (let i = 0; i < 10; i++){
+//     if (i === 5) {
+//         console.log("Loop to'xtatildi, chunki i = 5");
+//         break;
+//     }
+//     console.log(i);
+    
+// }
+
+
