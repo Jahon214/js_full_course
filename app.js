@@ -992,3 +992,18 @@
 // }
 
 
+
+// for (let i = 0; i < 10; i++) {
+//     if (i % 2 !== 0) { // Agar i toq bo'lsa
+//         continue; // Toq sonlarni o'tkazib yuboradi
+//     }
+//     console.log(i); // Faqat juft sonlar chop etiladi
+// }
+
+
+// for (let i = 0; i < 10; i++){
+//     if(i === 5) {
+//         break; // Loop'ni to'xtatadi
+//     }
+//     console.log(i);
+// }
